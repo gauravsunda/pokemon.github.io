@@ -1,0 +1,94 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    padding-bottom: 20px;
+    color: darkgrey;
+ width: 100%;
+}
+.navbar-wrapper{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+.navbar-wrapper > .container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-wrapper .navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+.corousel{
+    height: 500px;
+    margin-bottom: 50px;
+    z-index: 15;
+}
+.courousel .item{
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    min-width: 100%;
+}
+.center{
+  margin-top: 20px;
+    z-index: 10;
+    margin-bottom: 50px;
+}
+.center .col-lg-4{
+     margin-top: 20px;
+    text-align: center; 
+}
+.center h3{
+    color: aliceblue;
+    background-color: dimgrey;
+}
+.center p{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.line{
+    margin: 40px 0;
+}
+.context{
+    padding-left: 50px;
+    padding-top: 50px;
+      padding-right: 50px;
+    text-align:center;
+}
+.content{
+    margin-top: 30px;
+    margin-bottom:30px; 
+}
+
+.context h3{
+    background-color: burlywood;
+}
+.context p{
+    background-color: azure;
+}
+.queue{
+    border: black solid 2px;
+    color: aqua;
+}
+footer{
+    margin: 0 50px;
+    margin-bottom: 0px;
+     padding: 0 20px;
+    background-color: lightsteelblue;
+}
+footer>p{
+    color: black;
+}
